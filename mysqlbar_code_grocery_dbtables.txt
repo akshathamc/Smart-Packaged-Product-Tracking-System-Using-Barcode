@@ -1,0 +1,59 @@
+mysql>>bar_code_grocery_db
+
+1.item_details
+
+item_id	item_name item_desc	item_manu	item_price	item_type	bar_code	
+1	Lays	Potato Lays	Pepsi	10	Baked Grains	8901491503037
+10	Eastern Chilli powder	Eastern Red Chilli Powder 250g	Eastern Condiments	110	Spices	8901440022305
+11	Bayara Turmeric Powder	Turmeric Powder 200g	Gyma Food Industries 	125	Spices	3434410003561
+12	Urad Dal	Radhe Black Urad Dal 200g	Radha  Dal Mill	250	Baked Grains	6164003733694
+13	Toor Dal	Butterfly Toor Dal 1Kg	Butterfly Groups	200	Baked Grains	6164000383212
+14	Premium Adapter	adaptor	HLC	200	Electronics	038992585953
+15	VIM	VIM LEMON	UNILIVER	10	Laundry	8901030862243
+16	Clinic Plus	Rice Water	UNILEVER	118	Body Hygiene	8901030929861
+2	Britannia Brown Bread	Multigrain Brown Bread	Btitannia	55	Bakery	8901063343450
+3	Head & Shoulders Shampoo	2 in 1 instant relief 180ml	Procter & Gamble	226	Body Hygiene	4902430774208
+4	Pepsi 	Diet Can 300ml	Pepsi	25	Beverages	0012000801921
+5	Mazza	Mango Juice 1.5L	Coco-cola India	85	Beverages	3010000012191
+6	Amul Butter	Amul pasteurised butter salted 100g	Amul	57	Dairy	8901262010016
+7	Nandini Milk	Nandini Slim Skimmed Milk 1L	Nandini	45	Dairy	8906036670441
+8	Kissan Tomato Sauce	Tomato Sauce 1Kg	Hindustan Unilever	152	Canned Food	8901030673900
+9	Kissan jam	Kissan Mixed Fruit Jam 500g	Hindustan Unilever	180	Canned Food	8906108618609
+
+2.login_details
+
+userid	password	utype
+admin	123456	admin
+
+3.my_item_details
+
+hid	item_id	item_name	item_desc	item_manu	item_price	item_type	bar_code	qty	added_date	added_time	exp_date	status
+1	13	Toor Dal	Butterfly Toor Dal 1Kg	Butterfly Groups	200	Baked Grains	6164000383212	3	10-05-2024	11-36-34	2024-06-14	Added
+1	1	Lays	Potato Lays	Pepsi	10	Baked Grains	8901491503037	4	24-04-2024	09-51-17	2024-05-24	Added
+1	2	Brown Bread	Bread	Britannia	20	Bakery	4356789765787	2	28-04-2024	03-21-45	2024-05-03	Added
+1	4	Diet Pepsi	Pepsi	Pepsico	55	Beverages	8765675456464	3	28-04-2024	03-21-45	2024-05-27	Added
+1	5	Maaza	1.5L Maaza	Coca-Cola	66	Canned Food	7865678678555	5	28-04-2024	04-34-33	2024-06-01	Added
+1	7	Nandhini Slim Milk	Skim Milk	Nandhini	77	Dairy	7685455678965	4	01-06-2024	06-33-55	2024-06-07	Added
+1	12	Black Urad Dal	Urad Dal	Radha Govind	300	Baked Grains	7687878585876	6	27-04-2024	16-04-29	2024-06-06	Added
+1	9	Kissan jam	Kissan Mixed Fruit Jam 500g	Hindustan Unilever	180	Canned Food	8906108618609	3	13-05-2024	12-04-23	2024-07-12	Added
+1	12	Urad Dal	Radhe Black Urad Dal 200g	Radha  Dal Mill	250	Baked Grains	6164003733694	6	01-05-2024	01-58-23	2024-06-06	Added
+1	11	Bayara Turmeric Powder	Turmeric Powder 200g	Gyma Food Industries 	125	Spices	3434410003561	2	27-05-2024	10-48-48	2024-07-09	Added
+1	10	Eastern Chilli powder	Eastern Red Chilli Powder 250g	Eastern Condiments	110	Spices	8901440022305	2	27-05-2024	10-49-27	2024-07-07	Added
+1	16	Clinic Plus	Rice Water	UNILEVER	118	Body Hygiene	8901030929861	3	07-07-2024	09-47-57	2024-09-06	Added
+
+4.sub_user
+
+sid	hid	name	email	mobile	password
+2	1	akshu	mcakshatha1@email.com	9538624843	12345678
+3	1	ankitha	abcgmail.com	9986995352	12345
+4	1	kartuu	csjhsja@gmail.com	5544846465	1234567
+5	13	weru	cjhg@gmail.com	8249854899	123
+
+5.user_registration
+
+hid	name	email	mobile	password	
+1	Joyce 	jmath200215@gmail.com	9740963694	123456
+2	anki	gahwvsks@gmail.com	5434046466	1234567
+13	Jo	dthivh@gmail.com	3258462886	12345
+
+
